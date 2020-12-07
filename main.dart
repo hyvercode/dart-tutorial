@@ -1,3 +1,5 @@
-void main(){
-  print("welcome Dart");
+void main(List<String> args){
+  for(String ar in args){
+    print(ar);
+  }
 }
