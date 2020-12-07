@@ -13,7 +13,7 @@ void main(){
   p2.setName("Jhon");
   p2.setAge(35);
 
-  List<Person> list = List();
+  List<Person> list = [];
   list.add(p1);
   list.add(p2);
 
@@ -40,10 +40,7 @@ class Person{
   String name;
   int age;
 
-  Person(){
-    this.name;
-    this.age;
-  }
+  Person(this.name,this.age)
 
   void setName(String pName) {
     name = pName;
