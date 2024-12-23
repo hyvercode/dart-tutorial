@@ -5,13 +5,8 @@ void main(){
   exFor();
 
   //for in object
-  Person p1 = Person();
-  p1.setName("Crist");
-  p1.setAge(25);
-
-  Person p2= Person();
-  p2.setName("Jhon");
-  p2.setAge(35);
+  Person p1 = new Person("Crist",25);
+  Person p2= new Person("Jhon",35);
 
   List<Person> list = [];
   list.add(p1);
