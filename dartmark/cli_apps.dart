@@ -29,8 +29,11 @@ void main() {
 
   double amount = 0;
 
+  stdout.writeln();
+  print("========== Order ==========");
   print('Please input your buy : ');
   final buy = stdin.readLineSync();
+  stdout.writeln();
   switch (buy) {
     case "001":
       amount = 15;
