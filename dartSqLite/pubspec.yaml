@@ -1,0 +1,12 @@
+name: dart_sqlite
+
+environment:
+  sdk: '^3.8.0'
+
+dependencies:
+  sqlite3: ^2.7.6 # Or the latest version
+  path: ^1.8.3     # Or the latest version
+  path_provider: ^2.0.15 # Or the latest version
+
+dev_dependencies:
+  test: ^1.24.0 # Or the latest version
