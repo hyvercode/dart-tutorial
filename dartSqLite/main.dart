@@ -7,7 +7,7 @@ void main() async {
   final dbHelper = DatabaseHelper();
   dbHelper.database;
 
-  print("========== Menu Hvercode Market ==========");
+  print("========== Menu Hyvercode POS ==========");
   stdout.writeln("(1) Create Product");
   stdout.writeln("(2) List Product");
   stdout.writeln();
