@@ -2,7 +2,7 @@ import 'dart:io';
 import 'package:system_info/system_info.dart';
 
 const int MEGABYTE = 1024 * 1024;
-int cpu = 0;
+int cpu = 1;
 void main() {
   stdout.writeln();
   stdout.writeln("Welcome to Dart Programming System Information CLI");
@@ -44,6 +44,6 @@ void main() {
     "Free virtual memory     : ${SysInfo.getFreeVirtualMemory() ~/ MEGABYTE} MB",
   );
   print(
-    "Virtual memory use     : ${SysInfo.getVirtualMemorySize() ~/ MEGABYTE} MB",
+    "Virtual memory use      : ${SysInfo.getVirtualMemorySize() ~/ MEGABYTE} MB",
   );
 }
