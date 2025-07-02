@@ -1,3 +1,5 @@
+import 'dart:io';
+
 void main() {
   // varibales
   print("========Var===========");
@@ -11,21 +13,24 @@ void main() {
   print("=======String===========");
   exString();
 
-  print("======Boolena===========");
+  print("======Boolean===========");
   exBoolean();
 
+  stdout.writeln();
+  print("======Object===========");
+  exObject();
 }
 
-void exNumber(){
-  int numA=10;
-  int numB=5;
+void exNumber() {
+  int numA = 10;
+  int numB = 5;
 
   int numC = numA + numB;
 
   print("Number A + Number B = $numC");
 }
 
-void exDouble(){
+void exDouble() {
   double numA = 10.5;
   double numB = 5.5;
   double numC = numA * numB;
@@ -33,15 +38,19 @@ void exDouble(){
   print("Number A x Number B = $numC");
 }
 
-void exString(){
-  String message ="Hello Dart";
+void exString() {
+  String message = "Hello Dart";
   print(message);
 }
 
-void exBoolean(){
+void exBoolean() {
   bool num;
-  num = 0<10;
+  num = 0 < 10;
 
   print("0 < 10 = $num");
 }
 
+void exObject() {
+  Object name = "Jhon";
+  print("My name is $name");
+}

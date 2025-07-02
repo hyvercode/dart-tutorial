@@ -1,0 +1,10 @@
+name: dart_system_info
+
+environment:
+  sdk: '^3.8.0'
+
+dependencies:
+  system_info: ^1.0.1
+
+dev_dependencies:
+  test: ^1.24.0 # Or the latest version
