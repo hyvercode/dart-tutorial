@@ -1,0 +1,14 @@
+name: dart_guestbook
+description: A CLI guest book application with MongoDB
+version: 1.0.0
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  mongo_dart: ^0.9.3
+  intl: ^0.18.1
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
