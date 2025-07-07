@@ -1,7 +1,8 @@
 import 'package:mongo_dart/mongo_dart.dart';
 
 class DatabaseManager {
-  static const String _connectionString = 'mongodb://localhost:27017/guestbook';
+  static const String _connectionString =
+      'mongodb://admin:admin@localhost:27017/guestbook?authSource=admin';
   static const String _collectionName = 'guest';
 
   late Db _db;

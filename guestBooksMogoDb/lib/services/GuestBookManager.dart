@@ -55,6 +55,7 @@ class GuestBookManager {
     }
 
     print('\n--- GUEST BOOK ENTRIES ---');
+
     for (var entry in entries) {
       print(entry);
       print('---');
