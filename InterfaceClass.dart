@@ -22,24 +22,26 @@ class Car extends vehicle {
 }
 
 // Another class implementing the interface class
-class Bike extends vehicle {
+class Bike implements vehicle {
   @override
   void startEngine() {
-    super.startEngine();
+    print("Bike engine started");
   }
 
   @override
   void stopEngine() {
-    super.stopEngine();
+    print("Bike engine stopped");
   }
 }
 
 // Main function to demonstrate the usage
 void main() {
+  print("Interface Class Extends:");
   var myCar = Car();
   myCar.startEngine();
   myCar.stopEngine();
 
+  print("Interface Class Implements:");
   var myBike = Bike();
   myBike.startEngine();
   myBike.stopEngine();
